@@ -88,19 +88,19 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-                <swipeGestureRecognizer direction="right" id="jyb-hE-4BD">
+                <swipeGestureRecognizer direction="up" id="jyb-hE-4BD">
                     <connections>
-                        <action selector="swipeRightAction:" destination="BYZ-38-t0r" id="lyC-ny-yO9"/>
+                        <action selector="swipeUpAction:" destination="BYZ-38-t0r" id="lyC-ny-yO9"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="up" id="cEY-4d-whU">
+                <swipeGestureRecognizer direction="right" id="cEY-4d-whU">
                     <connections>
-                        <action selector="swipeUpAction:" destination="BYZ-38-t0r" id="TXq-bw-KlU"/>
+                        <action selector="swipeRightAction:" destination="BYZ-38-t0r" id="TXq-bw-KlU"/>
                     </connections>
                 </swipeGestureRecognizer>
-                <swipeGestureRecognizer direction="down" id="sXM-wv-dGm">
+                <swipeGestureRecognizer direction="left" id="sXM-wv-dGm">
                     <connections>
-                        <action selector="swipeDownAction:" destination="BYZ-38-t0r" id="mGP-gD-a4c"/>
+                        <action selector="swipeLeftAction:" destination="BYZ-38-t0r" id="mGP-gD-a4c"/>
                     </connections>
                 </swipeGestureRecognizer>
             </objects>

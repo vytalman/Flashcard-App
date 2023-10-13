@@ -106,17 +106,17 @@ class ViewController: UIViewController {
         }
     }
     
-    @IBAction func swipeRightAction(_ sender: UISwipeGestureRecognizer) {
+    @IBAction func swipeUpAction(_ sender: UISwipeGestureRecognizer) {
         displayCard()
     }
     
-    @IBAction func swipeUpAction(_ sender: UISwipeGestureRecognizer) {
+    @IBAction func swipeRightAction(_ sender: UISwipeGestureRecognizer) {
         if let card = currentCard {
             cardContentLabel.text = card.question
         }
     }
     
-    @IBAction func swipeDownAction(_ sender: UISwipeGestureRecognizer) {
+    @IBAction func swipeLeftAction(_ sender: UISwipeGestureRecognizer) {
         if let card = currentCard {
             cardContentLabel.text = card.answer
         }
